@@ -1,0 +1,44 @@
+/* Your code here */
+.interests {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+
+.interests-image {
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.interests-headline {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.interests-story {
+    font-size: 12px;
+    padding-bottom: 10px;
+
+}
+
+.interests-stock {
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+.stock {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+
+}
+
+.price {
+    color: green;
+    padding: 1px 0;
+}

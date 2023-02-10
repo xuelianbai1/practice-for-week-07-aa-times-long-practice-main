@@ -1,0 +1,14 @@
+/* Your code here */
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navList {
+    font-size: 11px;
+    font-family: nyt-franklin,
+        helvetica,
+        arial,
+        sans-serif;
+    padding: 11px 10px
+}

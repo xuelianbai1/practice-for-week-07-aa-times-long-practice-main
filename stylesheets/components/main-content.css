@@ -1,0 +1,178 @@
+/* Your code here */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: normal;
+    margin: 20px 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.para h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.para .by {
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.para ul {
+    list-style: disc;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.para li {
+    padding-bottom: 5px;
+}
+
+.para .comments {
+    color: gray;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.video {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.video p {
+    font-size: 12px;
+    padding: 5px 0;
+
+}
+
+.main-other {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.other-left,
+.other-right {
+    padding: 0 10px;
+}
+
+.other-left {
+    border-right: 1px solid lightgray;
+}
+
+.main-other h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.main-other .by {
+    font-size: 12px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.main-other p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.opinions,
+.operations {
+    line-height: normal;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.operations {
+    border-top: 2px solid lightgray;
+}
+
+.opinions h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.opinions .by,
+.operations .by {
+    font-size: 12px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.opinions p,
+.operations p {
+    font-size: 12px;
+}
+
+.opinions .comments,
+.operations .comments {
+    color: gray;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+
+.main-right .other {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+
+}
+
+.other .article {
+    font-size: 12px;
+    padding: 10px 0;
+    padding-right: 10px;
+    border-top: 2px solid lightgray;
+}
+
+.other .name {
+    color: gray;
+}
+
+.other p {
+    font-weight: bold;
+}
+
+@media screen and (max-width:1200px) {
+    .main-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .interests {
+        display: none;
+    }
+}
